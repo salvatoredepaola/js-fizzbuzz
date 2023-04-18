@@ -1,0 +1,31 @@
+body {
+    background-color: #083b4c;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1389b2;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.fizz{
+    background-color: #0cd6a1;
+}
+.buzz{
+    background-color: #ffd166;
+}
+.fizzbuzz{
+    background-color: #f0466f ;
+}
